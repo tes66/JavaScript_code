@@ -1,5 +1,4 @@
-var Tf = 9 / 5;
-var Tc = Tf + 32;
-
-console.log (Tc);
-console.log (Tf);
+var Tc = prompt ('Введите температуру в градусах Цельсия', '');
+var Tf = (9 / 5)*Tc+32;
+alert  (Tf);
+//console.log (Tf);

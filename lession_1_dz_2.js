@@ -1,5 +1,5 @@
-var admin
-var name
+let admin
+let name
 
 name = 'Василий';
 admin = name

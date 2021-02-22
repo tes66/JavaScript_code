@@ -1,0 +1,30 @@
+.field {
+  height: 640px;
+  width: 640px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px auto;
+  border: 1px solid black;
+}
+
+.col {
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+.b {
+  background: black;
+}
+
+.w {
+  background: white;
+}
+
+.chees {
+  height: 640px;
+  width: 640px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px auto;
+}

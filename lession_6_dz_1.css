@@ -1,0 +1,13 @@
+div.big {
+  width: 600px;
+  min-height: 400px;
+  border: 1px solid grey;
+  text-align: center;
+  margin: 0 auto;
+}
+
+div.icons {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+}

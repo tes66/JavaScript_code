@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+    border: 1px solid grey;
+    width: 1280px;
+    margin: 0 auto;
+    height: 1280;
+    position: relative;
+  }
+
+button {
+  float: right;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.modal {
+  padding: 55px;
+  width: 300px;
+  height: 300px;
+  background-color: #ccc;
+  border: 1px solid #555;
+  border-radius: 4px;
+  box-shadow: 5px 5px 10px #222;
+  position: absolute;
+  left: calc(78% - 150px);
+  top: 55px;
+  display: none;
+
+}
+
+.menu {
+  width: 100%;
+  height: 55px;
+  background-color: orange;
+}
+
+.active {
+  display: block;
+  animation: opentrash 5s !important;
+}
+
+.opentrash {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  opacity: .3;
+  background-color: grey;
+  top: 0;
+  right: 0;
+  display: none;
+
+
+}
+
+@keyframes opentrash {
+  0% {
+    top: -300px;
+  }
+  100%{
+    opacity: 2;
+  }
+}
+
+.logo {
+  text-align: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.content_shop {
+  display: flex;
+  width: 1280px;
+  height: 500px;
+}
+
+.goods1 {
+  border: 1px solid grey;
+  box-shadow: 0 0 5px 2px;
+  margin: 5%;
+  padding-top: 10px;
+  flex: 1 1 calc(33.33%);
+  text-align: center;
+  align-items: center;
+  background-size: cover;
+  background-position: top;
+  background-image: url(img/small/1.png);
+  background-repeat: no-repeat;
+  }
+
+.goods2 {
+  border: 1px solid grey;
+  margin: 5%;
+  padding-top: 10px;
+  box-shadow: 0 0 5px 2px;
+  flex: 1 1 calc(33.33%);
+  text-align: center;
+  align-items: center;
+  background-size: cover;
+  background-position: top;
+  background-image: url(img/small/1.png);
+  background-repeat: no-repeat;
+}
+
+.goods3 {
+  border: 1px solid grey;
+  margin: 5%;
+  padding-top: 10px;
+  box-shadow: 0 0 5px 2px;
+  flex: 1 1 calc(33.33%);
+  text-align: center;
+  align-items: center;
+  background-position: top;
+  background-size: cover;
+  background-image: url(img/small/1.png);
+  background-repeat: no-repeat;
+
+}

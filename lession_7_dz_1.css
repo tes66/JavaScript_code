@@ -48,7 +48,7 @@ button {
 
 .active {
   display: block;
-  animation: opentrash 5s !important;
+  animation: popup 5s;
 }
 
 .opentrash {
@@ -64,7 +64,7 @@ button {
 
 }
 
-@keyframes opentrash {
+@keyframes popup {
   0% {
     top: -300px;
   }

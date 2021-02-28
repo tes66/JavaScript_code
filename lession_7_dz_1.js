@@ -1,8 +1,8 @@
-const btn = document.querySelector('.btn');
+const btn_1 = document.querySelector('.btn_1');
 const modal = document.querySelector('.modal');
 const opentrash = document.querySelector('.opentrash');
 
-  btn.addEventListener('click', function (e) {
+  btn_1.addEventListener('click', function (e) {
     e.stopPropagation();
     modal.classList.add('active');
     opentrash.style.display = 'block';
